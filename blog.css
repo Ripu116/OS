@@ -1,0 +1,86 @@
+body {
+    font: 1.2em "Fira Sans", sans-serif;
+    border: 0;
+    margin: 0;
+    outline: none;
+    padding: none;
+}
+
+.header {
+    background-color: rgb(87, 151, 194);
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.groupDetails {
+    /* background-color: rgb(21, 132, 196); */
+    background-color: rgb(241, 239, 239);
+    height: 280px;
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+p {
+    margin: 0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: rgb(21, 132, 196);
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+  tr:nth-child(odd) {
+    background-color: rgb(21, 132, 196);
+    color: rgb(236, 234, 234);
+  }
+
+.blogs {
+    margin: 20px 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blog {
+    background-color: rgb(57, 201, 165);
+    width: calc(33.33% - 20px);
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    line-height:100px;
+    /* font-size: 1.5rem; */
+}
+
+.blog:hover {
+  border: 3px;
+}
+
+.blog a {
+  text-decoration: none;
+  color:black;
+}
+
+.blog a:hover {
+  color: rgb(59, 59, 59)
+}
